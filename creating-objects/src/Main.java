@@ -1,29 +1,32 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
 // create a Date object called currentDate  using the default constructor with no parameters
-const currentDate = new Date();
+Data currentDate = new Date();
         // create a Date object called anotherDate  using the default constructor with no parameters
-const anotherDate = new Date();
+Data anotherDate = new Date();
         // call the "toString" method on anotherDate and put it into a string variable called anotherDateString
-const anotherDateString = anotherDate.toString();
-        // call the "setTime" method for anotherDate passing in 123478 as its input.
-
+anotherDate.toString(String anotherDateString);
+        // call the "setTime" method for anotherDate passing in 123478 as its input
+        anotherDate.setTime(123478);;
         // call the "before" method on currentDate passing in anotherDate  put the returned value into a boolean variable called isBefore.
-
+anotherDate.before.anotherDate(boolean isBefore);
         // print the value of isBefore followed by a newline character
-
+        System.out.println(isBefore);
 ////////////////
         //create a Scanner object called myScanner,  pass in System.in to as the parameter to the constructor
-
+        Scanner myScanner = new Scanner(System.in);
         //call the "nextLine" method on the myScanner object save the result into a string variable called resString
-
+myScanner.nextline(String resString);
         //print resString followed by a newline character
-
+System.out.println();
         //call the "next" method on the myScanner object saving the result into resString
-
+        myScanner.next(resString);
         //print resString followed by a newline character
+        System.out.println();
     }
 }
