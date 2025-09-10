@@ -27,6 +27,6 @@ System.out.println();
         //call the "next" method on the myScanner object saving the result into resString
         myScanner.next(resString);
         //print resString followed by a newline character
-        System.out.println();
+        System.out.println("resString");
     }
 }
