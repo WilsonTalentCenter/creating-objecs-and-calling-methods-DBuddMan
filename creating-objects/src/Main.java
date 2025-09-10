@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -6,27 +7,27 @@ public class Main {
     public static void main(String[] args) {
 
 // create a Date object called currentDate  using the default constructor with no parameters
-Data currentDate = new Date();
+Date currentDate = new Date();
         // create a Date object called anotherDate  using the default constructor with no parameters
-Data anotherDate = new Date();
+Date anotherDate = new Date();
         // call the "toString" method on anotherDate and put it into a string variable called anotherDateString
-anotherDate.toString(String anotherDateString);
+        String anotherDateString = anotherDate.toString();
         // call the "setTime" method for anotherDate passing in 123478 as its input
         anotherDate.setTime(123478);;
         // call the "before" method on currentDate passing in anotherDate  put the returned value into a boolean variable called isBefore.
-anotherDate.before.anotherDate(boolean isBefore);
+        boolean isBefore = currentDate.before(anotherDate);
         // print the value of isBefore followed by a newline character
         System.out.println(isBefore);
 ////////////////
         //create a Scanner object called myScanner,  pass in System.in to as the parameter to the constructor
         Scanner myScanner = new Scanner(System.in);
         //call the "nextLine" method on the myScanner object save the result into a string variable called resString
-myScanner.nextline(String resString);
+        String resString = myScanner.nextLine();
         //print resString followed by a newline character
 System.out.println();
         //call the "next" method on the myScanner object saving the result into resString
-        myScanner.next(resString);
+        resString =myScanner.next();
         //print resString followed by a newline character
-        System.out.println("resString");
+        System.out.println(resString);
     }
 }
