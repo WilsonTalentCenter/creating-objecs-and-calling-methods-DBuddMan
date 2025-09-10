@@ -24,7 +24,7 @@ Date anotherDate = new Date();
         //call the "nextLine" method on the myScanner object save the result into a string variable called resString
         String resString = myScanner.nextLine();
         //print resString followed by a newline character
-System.out.println();
+System.out.println(resString);
         //call the "next" method on the myScanner object saving the result into resString
         resString =myScanner.next();
         //print resString followed by a newline character
